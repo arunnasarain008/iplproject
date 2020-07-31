@@ -1,0 +1,15 @@
+# sample netlify.toml
+[build]
+  command = "npm run build"
+  functions = "functions" # netlify dev uses this directory to scaffold and serve your functions
+  publish = "dist"
+
+# note: each of these fields are OPTIONAL, with an exception that when you're specifying "command" and "port", you must specify framework = "#custom"
+[dev]
+  framework="#custom"
+  command = "npm run start"
+  targetPort =5000
+  #port:8080
+  publish = "dist" # The path to your static content folder
+  jwtRolePath = "app_metadata.authorization.roles" # Object path we should look for role values for JWT based redirects
+  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser

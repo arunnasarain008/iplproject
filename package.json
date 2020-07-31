@@ -1,0 +1,38 @@
+{
+  "name": "arun_ipl_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /Users/arunnasarain/Documents/IPL_project_2/arun_ipl_project/src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/arunnasarain008/arun_ipl_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/arunnasarain008/arun_ipl_project/issues"
+  },
+  "homepage": "https://gitlab.com/arunnasarain008/arun_ipl_project#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "convert-csv-to-json": "0.0.15",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "http": "0.0.1-security",
+    "json": "^9.0.6",
+    "jsonfile": "^6.0.1",
+    "netlify-cli": "^2.58.0",
+    "netlify-lambda": "^2.0.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "serve-index": "^1.9.1",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
